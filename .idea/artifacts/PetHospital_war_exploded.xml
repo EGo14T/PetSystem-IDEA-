@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="PetHospital:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/PetHospital_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="PetHospital/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="PetHospital" />
+          <element id="dir-copy" path="E:/新建文件夹/apache-tomcat-8.5.30-windows-x64/apache-tomcat-8.5.30" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

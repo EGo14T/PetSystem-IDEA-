@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>pett.servlet.UserServlet</servlet-class>
+
+    </servlet>
+
+    <servlet>
+        <servlet-name>AddMasterServlet</servlet-name>
+        <servlet-class>pett.servlet.AddMasterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DelMasterServlet</servlet-name>
+        <servlet-class>pett.servlet.DelMasterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdateMasterServlet</servlet-name>
+        <servlet-class>pett.servlet.UpdateMasterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SelectUpdateMasterServlet</servlet-name>
+        <servlet-class>pett.servlet.SelectUpdateMasterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SearchMasterServlet</servlet-name>
+        <servlet-class>pett.servlet.SearchMasterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SelectSearchMasterServlet</servlet-name>
+        <servlet-class>pett.servlet.SelectSearchMasterServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AddDoctorServlet</servlet-name>
+        <servlet-class>pett.servlet.AddDoctorServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DelDoctorServlet</servlet-name>
+        <servlet-class>pett.servlet.DelDoctorServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SelectUpdateDoctorServlet</servlet-name>
+        <servlet-class>pett.servlet.SelectUpdateDoctorServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdateDoctorServlet</servlet-name>
+        <servlet-class>pett.servlet.UpdateDoctorServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SelectSearchDoctorServlet</servlet-name>
+        <servlet-class>pett.servlet.SelectSearchDoctorServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SearchDoctorServlet</servlet-name>
+        <servlet-class>pett.servlet.SearchDoctorServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>AddPetServlet</servlet-name>
+        <servlet-class>pett.servlet.AddPetServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>DelPetServlet</servlet-name>
+        <servlet-class>pett.servlet.DelPetServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SelectUpdatePetServlet</servlet-name>
+        <servlet-class>pett.servlet.SelectUpdatePetServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>UpdatePetServlet</servlet-name>
+        <servlet-class>pett.servlet.UpdatePetServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SelectSearchPetServlet</servlet-name>
+        <servlet-class>pett.servlet.SelectSearchPetServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>SearchPetServlet</servlet-name>
+        <servlet-class>pett.servlet.SearchPetServlet</servlet-class>
+    </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/UserServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AddMasterServlet</servlet-name>
+        <url-pattern>/AddMasterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DelMasterServlet</servlet-name>
+        <url-pattern>/DelMasterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateMasterServlet</servlet-name>
+        <url-pattern>/UpdateMasterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SelectUpdateMasterServlet</servlet-name>
+        <url-pattern>/SelectUpdateMasterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SearchMasterServlet</servlet-name>
+        <url-pattern>/SearchMasterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SelectSearchMasterServlet</servlet-name>
+        <url-pattern>/SelectSearchMasterServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AddDoctorServlet</servlet-name>
+        <url-pattern>/AddDoctorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DelDoctorServlet</servlet-name>
+        <url-pattern>/DelDoctorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SelectUpdateDoctorServlet</servlet-name>
+        <url-pattern>/SelectUpdateDoctorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdateDoctorServlet</servlet-name>
+        <url-pattern>/UpdateDoctorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SelectSearchDoctorServlet</servlet-name>
+        <url-pattern>/SelectSearchDoctorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SearchDoctorServlet</servlet-name>
+        <url-pattern>/SearchDoctorServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AddPetServlet</servlet-name>
+        <url-pattern>/AddPetServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>DelPetServlet</servlet-name>
+        <url-pattern>/DelPetServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SelectUpdatePetServlet</servlet-name>
+        <url-pattern>/SelectUpdatePetServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>UpdatePetServlet</servlet-name>
+        <url-pattern>/UpdatePetServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SelectSearchPetServlet</servlet-name>
+        <url-pattern>/SelectSearchPetServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>SearchPetServlet</servlet-name>
+        <url-pattern>/SearchPetServlet</url-pattern>
+    </servlet-mapping>
+
+</web-app>
